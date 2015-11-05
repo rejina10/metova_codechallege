@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"/>
+
+    <TextView
+        android:id="@+id/home_text"
+        android:layout_below="@id/app_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text"
+        style="@style/MyTextTheme"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/home_make"
+        android:layout_below="@id/home_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyTextTheme"
+        android:text="@string/home_make"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/metovadesc"
+        android:layout_below="@id/home_make"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/metova_description"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/tellproject"
+        android:layout_below="@id/metovadesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="@string/tellProject"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/tellMore"
+        android:layout_below="@id/tellproject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="TELL MORE"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

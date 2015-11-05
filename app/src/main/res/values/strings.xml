@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">metova</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="home_text">IF YOU CAN IMAGINE IT</string>
+    <string name="home_make">WE CAN MAKE IT</string>
+    <string name="metova_description">Metova builds the app for any size company, from Fortune 500 to start ups.
+    We enjoy helping start ups become brand names and cooprations launch new products</string>
+    <string name="tellProject">TELL US ABOUT YOUR PROJECT</string>
+</resources>

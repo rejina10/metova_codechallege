@@ -1,0 +1,25 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="MyTextTheme" parent="android:Theme.Light">
+        <item name="android:textAppearance">@style/MyTextAppearance</item>
+    </style>
+    <style name="MyTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#212121</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="MyToolbarTheme" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+</resources>
